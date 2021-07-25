@@ -1,21 +1,21 @@
 # PowerPaint
-![PowerPaint screen](powerpaint.png)
+![PowerPaint screen](img/powerpaint.png)
 
 ## Usage
 
 ### Command Prompt:
 ```powershell
-powershell [Net.ServicePointManager]::SecurityProtocol='Tls12'; iex (irm https://bit.ly/pwsh-td)
+powershell [Net.ServicePointManager]::SecurityProtocol='Tls12'; iex (irm https://bit.ly/ps1paint)
 ```
 
 ### PowerShell:
 ```powershell
-[Net.ServicePointManager]::SecurityProtocol='Tls12'; iex (irm https://bit.ly/pwsh-td)
+[Net.ServicePointManager]::SecurityProtocol='Tls12'; iex (irm https://bit.ly/ps1paint)
 ```
 
 ### Local:
 ```powershell
-powershell [Net.ServicePointManager]::SecurityProtocol='Tls12'; .\td.ps1
+powershell [Net.ServicePointManager]::SecurityProtocol='Tls12'; .\powerpaint.ps1
 ```
 
 ## Troubleshooting
@@ -32,4 +32,3 @@ powershell Set-ExecutionPolicy RemoteSigned
 ### PowerShell:
 ```powershell
 Set-ExecutionPolicy RemoteSigned -force
-```
