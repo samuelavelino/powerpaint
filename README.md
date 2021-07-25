@@ -1,5 +1,5 @@
 # PowerPaint
-![PowerPaint screen](img/powerpaint.png)
+![PowerPaint screen](powerpaint.png)
 
 ## Usage
 
